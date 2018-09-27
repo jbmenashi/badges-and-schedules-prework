@@ -11,7 +11,9 @@ def batch_badge_creator(array_of_names)
 end
 
 def assign_rooms(list_of_speakers)
-  
+  assignment_list = ""
+  list_of_speakers.each do |speaker|
+    assignment_list << "Hello #{speaker}! You'll be assigned to room "
 end
 
 def printer
