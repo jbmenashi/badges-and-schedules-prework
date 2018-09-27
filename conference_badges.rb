@@ -15,6 +15,7 @@ def assign_rooms(list_of_speakers)
   list_of_speakers.each do |speaker|
     assignment_list << "Hello #{speaker}! You'll be assigned to room #{speaker}!"
   end
+  assignment_list
 end
 
 def printer
