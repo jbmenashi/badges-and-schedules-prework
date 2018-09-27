@@ -19,5 +19,6 @@ def assign_rooms(list_of_speakers)
 end
 
 def printer
-  
+  batch_badge_creator
+  assign_rooms
 end
